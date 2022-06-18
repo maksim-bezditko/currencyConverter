@@ -1,6 +1,11 @@
 body {
 	background-image: url("https://media.istockphoto.com/vectors/falling-american-dollar-bills-seamless-pattern-on-white-background-vector-id1198334973?k=20&m=1198334973&s=612x612&w=0&h=NAdPC4LTyRxPlERApg2WhbhqsehDkfPrfqbH_v59Jnc=");
 	background-size: 100px;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -59,4 +64,12 @@ input {
 .result {
 	font-size: 25px;
 	margin-top: 70px;
+	margin-bottom: 1px;
+}
+
+.rate {
+	color: rgb(1, 134, 103);
+	padding-top: 0px;
+	margin-top: 0px;
+	font-size: 15px;
 }
