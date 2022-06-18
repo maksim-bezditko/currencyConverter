@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="https://thumbs.dreamstime.com/z/dollar-currency-icon-isolated-white-coin-money-black-symbol-circle-shape-flat-button-info-graphics-simple-180238900.jpg">
+	<title>Currency Converter</title>
+</head>
+<body>
+	<div class="headerWrap">
+		<h1 class="header">Currency Rate Converter</h1>
+	</div>
+	<div class="wrapper">
+		<p>Amount:</p>
+		<input class="amount" type="number" name="currency1amount">
+		<div class="selects">
+			<div class="select">
+				<span>From:</span>
+				<select name="currency1" id="1">
+					<option value="UAH">UAH</option>
+					<option value="USD">USD</option>
+					<option value="EUR">EUR</option>
+					<option value="JPY">JPY</option>
+					<option value="GBP">GBP</option>
+					<option value="CHF">CHF</option>
+					<option value="CAD">CAD</option>
+					<option value="CNY">CNY</option>
+					<option value="HKD">HKD</option>
+				</select>
+			</div>
+			<div class="select">
+				<span>To:</span>
+				<select name="currency2" id="2">
+					<option value="UAH">UAH</option>
+					<option value="USD">USD</option>
+					<option value="EUR">EUR</option>
+					<option value="JPY">JPY</option>
+					<option value="GBP">GBP</option>
+					<option value="CHF">CHF</option>
+					<option value="CAD">CAD</option>
+					<option value="CNY">CNY</option>
+					<option value="HKD">HKD</option>
+				</select>
+			</div>
+		</div>
+		<div class="resultWrap">
+			<p class="result">Result: <span>---</span></p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
